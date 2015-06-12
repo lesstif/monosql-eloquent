@@ -7,7 +7,7 @@
 Session.vim
 .netrwhist
 *~
- 
+database.sqlite 
  
 ### Laravel ###
 /bootstrap/compiled.php
