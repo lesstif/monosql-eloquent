@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class EloquentLog extends Migration
+class EloquentLogSchema extends Migration
 {
     protected $table;
 
@@ -19,7 +19,7 @@ class EloquentLog extends Migration
      */
     public function up()
     {
-       Schema::create($this->table, function(Blueprint $table)
+        Schema::create($this->table, function(Blueprint $table)
 		{
 			$table->bigIncrements('id');
             $table->string('channel');

@@ -1,16 +1,16 @@
 <?php
 
-namespace MonoEloquent;
+namespace MonologEloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 class EloquentLog extends Model
 {
-    protected $table = 'EloquentLogs';
+    protected $table;
     //
     //protected $fillable = [''];
-    
-    public function __construct($table = 'EloquentLogs')
+
+    public function __construct($table)
     {
         $this->table = $table;
     }
